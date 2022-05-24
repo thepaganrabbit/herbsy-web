@@ -13,3 +13,4 @@ Herbsy a place for users to keep a list of all their herbs on hand preventing th
 4. Rematch
 5. Bootstrap
 6. React testing Library
+7. Vite
