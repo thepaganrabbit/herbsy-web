@@ -13,7 +13,6 @@ describe('Sidenav Tests', () => {
     return render(<BrowserRouter><SideNav /></BrowserRouter>);
   };
   beforeEach(() => {
-    // TODO: fix stupid error about returning a funciton 
     console.error = jest.fn()
     jest.clearAllMocks();
   })
