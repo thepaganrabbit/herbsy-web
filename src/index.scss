@@ -1,1 +1,21 @@
 
+* {
+    background-color: rgb(214, 243, 252);
+}
+
+:root {
+    --primary: rgb(53, 227, 172);
+    --secondary: rgb(250, 130, 100);
+    --tertiary: rgba(178, 228, 219, 1);
+    --accent: rgba(176, 198, 206, 1);
+    --grey-tint: rgba(147, 139, 161, 1);
+    --gradient-1: linear-gradient(0deg, #d7fdecff, #a9fbd7ff, #b2e4dbff, #b0c6ceff, #938ba1ff);
+    --gradient-2: linear-gradient(90deg, #d7fdecff, #a9fbd7ff, #b2e4dbff, #b0c6ceff, #938ba1ff);
+    --gradient-3: linear-gradient(180deg, #d7fdecff, #a9fbd7ff, #b2e4dbff, #b0c6ceff, #938ba1ff);
+    --gradient-4: linear-gradient(270deg, #d7fdecff, #a9fbd7ff, #b2e4dbff, #b0c6ceff, #938ba1ff);
+    --gradient-5: linear-gradient(45deg, #d7fdecff, #a9fbd7ff, #b2e4dbff, #b0c6ceff, #938ba1ff);
+    --gradient-6: linear-gradient(135deg, #d7fdecff, rgb(184, 252, 244), #b2e4dbff, #b0c6ceff, #938ba1ff);
+    --gradient-7: linear-gradient(225deg, #d7fdecff, #a9fbd7ff, #b2e4dbff, #b0c6ceff, #938ba1ff);
+    --gradient-8: linear-gradient(315deg, #d7fdecff, #a9fbd7ff, #b2e4dbff, #b0c6ceff, #938ba1ff);
+    --gradient-9: radial-gradient(#d7fdecff, #a9fbd7ff, #b2e4dbff, #b0c6ceff, #938ba1ff);
+}

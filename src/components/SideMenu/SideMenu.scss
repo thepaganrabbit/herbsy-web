@@ -1,0 +1,59 @@
+.menu-burger {
+  color: var(--primary);
+  padding: 2rem;
+}
+
+.sidenav-bar {
+  position: relative;
+}
+
+.tran-btn {
+  background: transparent;
+  border: none;
+  padding: 0;
+  &:focus{
+    outline: none;
+  }
+}
+
+.menu-item {
+  padding-top: 1rem;
+  transition: 1s;
+  &:hover {
+    font-size: 4em;
+  }
+}
+
+.pad-r {
+  padding-right: 4rem;
+}
+
+.pad-l {
+  padding-left: 4rem;
+}
+
+.menu-top {
+  position: absolute;
+  top: 0;
+  left: 45vw;
+}
+.menu-left {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 45vh;
+}
+.menu-right {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 45vh;
+  left: 94vw;
+}
+.menu-bottom {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  top: 90vh;
+  left: 45vw;
+}

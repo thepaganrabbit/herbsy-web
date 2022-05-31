@@ -1,5 +1,6 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+import Cabinet from '../pages/Cabinet/Cabinet';
 import Home from '../pages/Home/Home';
 
 /**
@@ -12,6 +13,11 @@ const routes = [
     component: Home,
     props: null,
   },
+  {
+    path: '/cabinet',
+    component: Cabinet,
+    props: null,
+  },
 ];
 
 const SystemRoutes = () => {
@@ -22,12 +28,13 @@ const SystemRoutes = () => {
           <Route
             path={route.path}
             key={route.path}
+            exact
             element={
               <route.component
                 {...(route.props !== null ? route.props : null)}
               />
             }
-          ></Route>
+          />
         ))}
       </Routes>
     </div>
