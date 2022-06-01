@@ -1,6 +1,6 @@
 import { fireEvent, render } from '@testing-library/react';
 import SideNav from '../SideMenu/SideMenu';
-import { BrowserRouter, useNavigate } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 const mockedNavigator = jest.fn();
 

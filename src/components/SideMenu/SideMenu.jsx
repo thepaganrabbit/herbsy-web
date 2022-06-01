@@ -19,7 +19,7 @@ const SideNav = () => {
     navagate(`${location}`);
   };
   return (
-    <div className="sidenav-bar">
+    <div className="sidenav-bar" data-testid="Side Navigation Menu">
       <div className="sandwich">
         <FontAwesomeIcon size="3x" className="menu-burger" icon={faBars} />
       </div>
