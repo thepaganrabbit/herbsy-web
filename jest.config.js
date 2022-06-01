@@ -1,5 +1,9 @@
 module.exports = {
   testEnvironment: 'jsdom',
+  roots: ['src/'],
+  moduleNameMapper: {
+    '\\.(s?css|less)$': 'identity-obj-proxy',
+  },
   collectCoverageFrom: [
     '**/*.{js,jsx}',
     '!**/node_modules/**',
@@ -10,7 +14,6 @@ module.exports = {
       branches: 80,
       functions: 80,
       lines: 80,
-      statements: -10,
     },
   },
 };
