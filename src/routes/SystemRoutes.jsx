@@ -2,12 +2,18 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Cabinet from '../pages/Cabinet/Cabinet';
 import Home from '../pages/Home/Home';
+import Login from '../pages/Login/Login';
 
 /**
  * All routes of main for the applicaiton in one location.
  */
 
 const routes = [
+  {
+    path: '/login',
+    component: Login,
+    props: null,
+  },
   {
     path: '/',
     component: Home,

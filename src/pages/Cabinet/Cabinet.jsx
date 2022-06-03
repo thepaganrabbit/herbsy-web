@@ -1,5 +1,7 @@
 import React from 'react';
+
 import SideNav from '../../components/SideMenu/SideMenu';
+import withAuthorization from '../../HOC/withAuth';
 
 const Cabinet = () => {
   return (
@@ -14,4 +16,4 @@ const Cabinet = () => {
   );
 };
 
-export default Cabinet;
+export default withAuthorization(Cabinet);

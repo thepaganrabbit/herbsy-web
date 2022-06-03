@@ -1,13 +1,15 @@
-import React from 'react'
-import './App.scss'
-import SystemRoutes from './routes/SystemRoutes'
+import React from 'react';
+import { ToastContainer } from 'react-toastify';
+import './App.scss';
+import SystemRoutes from './routes/SystemRoutes';
 
 function App() {
   return (
     <div className="App">
-        <SystemRoutes />
+      <ToastContainer />
+      <SystemRoutes />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
