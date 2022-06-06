@@ -1,7 +1,9 @@
 import { render } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
 import Cabinet from '../Cabinet/Cabinet';
-
+jest.mock('../../hooks/useUsers', () => () => ({
+    isLoggedIn: true
+}))
 describe('Cabinet Page Unit Tests', () => {
     const exec = () => {
         return render(<BrowserRouter><Cabinet/></BrowserRouter>);
